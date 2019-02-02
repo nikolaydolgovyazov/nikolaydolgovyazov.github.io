@@ -1,0 +1,144 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.left {
+		float: left;
+	}
+	.menu_top_button {
+		padding: 5px;
+		margin: 5px;
+		float: left;
+	}
+
+.footer ul {
+	padding:30px 20px;
+	list-style-type: none;
+}
+.top_line {
+	width: 658px;
+
+}
+.top_menu a {
+	padding: 0px 40px;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 769px) {
+	
+	.top_menu ul {
+			display: none;
+			background-color: #4B5CD7;
+			position: absolute;
+			width: 100%;
+			margin-top: 70px;
+			z-index: 10;
+	}
+	.top_menu ul li{
+			display: block;
+			float: none;
+	}
+	.menu_top_button {
+		padding: 10px;
+	}
+	.top_line h1 {
+		font-size: 40px;
+		margin: 100px 70px 0px 30px;
+	}
+	.top_line p {
+		margin-left: 50px;
+	}
+}
+@media only screen and (max-width : 500px) {
+.footer li {
+	float: none;
+}
+}
+
+/* Extra Small Devices, Phones */
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 580px) {
+section h3,
+.people p {
+	font-size: 15px;
+	padding: 10px 30px;
+}
+.top_line h1 {
+		font-size: 35px;
+		margin: 100px 70px 0px 30px;
+	}
+.top_line p	{
+	font-size: 20px;
+}
+.footer ul {
+	margin-bottom: 10px;
+}
+
+}
+@media only screen and (max-width : 320px) {
+.top_line h1 {
+		
+		margin-left: 10px;
+		font-size: 25px;
+}
+.top_line p {
+		
+		margin-left: 35px;
+		font-size: 15px;
+}
+.people h3 {
+	font-size: 20px;
+}
+.people p {
+	font-size: 10px;
+	padding: 0;
+}
+.map {
+
+}
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.menu-menu-container {
+		display: block !important;
+	
+}
+   .menu_top_button {
+   	display: none;
+   }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 993px) {
+	
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
