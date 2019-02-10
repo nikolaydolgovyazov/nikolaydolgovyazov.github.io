@@ -141,7 +141,7 @@ ul {
 
 @media (max-width: 1030px) {
     body {
-    	background: url(../img/bg.jpg);
+    	background: url(img/bg.jpg);
     	width: 100%;
     }
     .checkbox, .javascript {
@@ -208,11 +208,11 @@ ul {
     	float: none;
     }
     .checkbox span {
-			font-size: 10px;
-		}
-		.stroka span, .stroka1 span  {
-			font-size: 20px;
-			margin-right: 15px;
+	font-size: 10px;
+    }
+     .stroka span, .stroka1 span  {
+    font-size: 20px;
+     margin-right: 15px;
 		}
 }
 @media (max-width: 500px) {
@@ -259,15 +259,15 @@ ul {
     	font-size: 15px;
     }
     .stroka span {
-			font-size: 13px;
-		}
-		.stroka label {
-			font-size: 15px
-		}
-		.logo img, .head img {
-			width: 90%;
-			margin: 0 auto;
-		} 
+         font-size: 13px;
+    }
+    .stroka label {
+	 font-size: 15px
+    }
+    .logo img, .head img {
+	width: 90%;
+	margin: 0 auto;
+     } 
 }
 
 
