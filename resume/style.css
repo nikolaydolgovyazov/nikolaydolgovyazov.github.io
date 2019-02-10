@@ -6,6 +6,7 @@ body {
 	margin: 0 auto;
         padding: 0;
         width: 1000px;
+	border: 12px solid #4E342E;
 }
 header {
         text-align: center;
@@ -139,10 +140,14 @@ ul {
 /* адаптивность */
 
 
-@media (max-width: 1030px) {
+@media (max-width: 1050px) {
+    html {
+    border: 12px solid #4E342E;
+    }
     body {
     	background: url(img/bg.jpg);
     	width: 100%;
+	border:none;
     }
     .checkbox, .javascript {
     	margin-left: 0 auto;
