@@ -1,0 +1,274 @@
+html {
+	overflow-x: hidden;
+}
+body {
+	background: url(../img/bg.jpg) no-repeat center;
+	margin: 0 auto;
+  padding: 0;
+  /* border: 2px solid;*/
+  width: 1000px;
+}
+header {
+text-align: center;
+}
+.logo {
+	float: left;
+  display: block;
+  margin: 20px 0 0 97px;
+}
+.logo img {
+  width: 300px;
+}
+.secret {
+	display: block;
+  margin: 20px 30px 0 0;
+  text-align: right;
+}
+.secret img {
+	width: 300px;
+} 
+.head {
+	margin-top: 30px;
+}
+form {
+	font-family: ptsansbold;
+	margin: 70px 0 0 0px;
+	text-align: center;
+	color:#333333;
+}
+label {
+	font-size: 23px;
+}
+.title_form {
+display: inline-block;
+}
+form span, .date {
+	font-family: cour;
+	font-size: 30px;
+	display: block;
+	margin: 0 0 -10px 30px;
+	text-align: left;
+}
+.stroka {
+	margin: 15px 0px;
+}
+.checkbox, .javascript {
+	font-family: ptsansbold;
+	margin: 45px 0 0 104px;
+	font-size: 22px;
+	color:#333333;
+}
+
+.checkbox p, .about p, .future p {
+	  font-size: 15px;
+    font-family: pt-sans;
+    width: 772px;
+    line-height: 1.5em;
+}
+.checkbox span {
+	  margin: 10px 0 0 10px;
+	  font-size: 21px;
+}
+.galochka {
+	position: absolute;
+  margin: -4px 0px 0px -17px;
+}
+table {
+	width: 770px;
+}
+td {
+	width:33%;
+}
+h3 {
+	margin: 0;
+}
+.polz {
+	margin-top:30px;
+}
+li {
+	display: inline-block;
+	font-size: 13px;
+	vertical-align: top;
+}
+ul {
+	margin: 0;
+  padding: 0;
+}
+.about {
+	margin-top:45px;
+}
+.about span {
+	font-size: 30px;
+	font-family: cour;
+	display: block;
+  margin: 10px 0 -18px 5px;
+}
+.future {
+	margin-top: 60px;
+}
+.future li {
+	font-size: 20px;
+}
+.round2 {
+	position: absolute;
+  margin: 7px 0 0 -19px;
+}
+.future span {
+	margin: 10px 20px 10px 8px;
+}
+.onediv {
+	display: inline-block;
+	vertical-align: middle;
+}
+.twodiv {
+  display: inline-block;
+  margin: 0 20px 0 10px;
+}
+
+.stroka1 {
+	text-align: left;
+	margin: 0 0 30px 104px;
+}
+.stroka1 img {
+	margin-left: 18px;
+}
+
+.hidden, .hidden_check {
+	display: none;
+}
+
+
+
+@media (max-width: 1030px) {
+    body {
+    	background: url(../img/bg.jpg);
+    	width: 100%;
+    }
+    .checkbox, .javascript {
+    	margin-left: 0 auto;
+    }
+    form {
+    	
+    }
+    .logo {
+    	margin-left: 10px;
+    }
+}
+
+@media (max-width: 905px) {
+    .checkbox, .javascript {
+    	margin-left: 15px;
+    }
+    form span, .date {
+    	text-align: center;
+    }
+    .stroka1 {
+			margin-left: 15px;
+		}
+}
+
+@media (max-width: 800px ) {
+	    .about img, .polz img, p, table {
+    	width: 95% !important;
+    } 
+    .polz li:nth-child(1) {
+    	width: 16% !important;;
+    }
+    .polz li:nth-child(2) {
+    	width: 25% !important;;
+    }
+    .polz li:nth-child(3) {
+    	width: 31% !important;;
+    }
+     .polz li:nth-child(4) {
+    	width: 18% !important;;
+    	text-align: right;
+    }
+		.checkbox span {
+			font-size: 17px;
+		}
+		.javascript, .stroka1, .checkbox h3, .checkbox p  {
+			text-align: center;
+		}
+		table {
+		margin: 0 auto;
+		}
+
+
+}
+
+@media (max-width: 700px) {
+    .stroka img {
+    	width: 95%;
+    }
+    .secret {
+    	display: none;
+    }
+    .logo {
+    	float: none;
+    }
+    .checkbox span {
+			font-size: 10px;
+		}
+		.stroka span, .stroka1 span  {
+			font-size: 20px;
+			margin-right: 15px;
+		}
+}
+@media (max-width: 500px) {
+    .checkbox table {
+    	display: none;
+    }
+    .hidden_check {
+    	display: block;
+    }
+    .hidden_check span {
+    	font-size: 22px;
+      font-family: ptsansbold;
+    }
+    .about span {
+    	font-size: 20px;
+    }
+    .stroka span {
+			font-size: 17px;
+		}
+ 		.title_form {
+ 			margin-top:5px;
+ 		}
+}
+
+@media (max-width: 380px) {
+   .hidden {
+   	display: block;
+   	width: 90%;
+   	margin-top: 15px;
+    text-align: center;
+    color: #245;
+    background: #FEB;
+    padding: 10px;
+    border-radius: 10px;
+   }
+   .polz {
+   	display: none;
+   }
+   .future li {
+   	display: block;
+   	text-align:left;
+   }
+   .about span {
+    	font-size: 15px;
+    }
+    .stroka span {
+			font-size: 13px;
+		}
+		.stroka label {
+			font-size: 15px
+		}
+		.logo img, .head img {
+			width: 90%;
+			margin: 0 auto;
+		} 
+}
+
+
+

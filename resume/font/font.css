@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'ptsansbold';
+  src: url('../font/ptsansbold.ttf');
+  src: url('../font/ptsansbold.eot') format('embedded-opentype'),
+       url('../font/ptsansbold.woff') format('woff'),
+       url('../font/ptsansbold.ttf') format('truetype'),
+       url('../font/ptsansbold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pt-sans';
+  src: url('../font/pt-sans.ttf');
+  src: url('../font/pt-sans.eot') format('embedded-opentype'),
+       url('../font/pt-sans.woff') format('woff'),
+       url('../font/pt-sans.ttf') format('truetype'),
+       url('../font/pt-sans.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cour';
+  src: url('../font/cour.ttf');
+  src: url('../font/cour.eot') format('embedded-opentype'),
+       url('../font/cour.woff') format('woff'),
+       url('../font/cour.ttf') format('truetype'),
+       url('../font/cour.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yew';
+  src: url('../font/yew.ttf');
+  src: url('../font/yew.eot') format('embedded-opentype'),
+       url('../font/yew.woff') format('woff'),
+       url('../font/yew.ttf') format('truetype'),
+       url('../font/yew.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
