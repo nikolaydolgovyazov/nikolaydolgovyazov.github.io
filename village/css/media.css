@@ -57,6 +57,9 @@
 	.top_line p {
 		margin-left: 50px;
 	}
+	.top_line {
+	width: 100%;
+        }
 }
 @media only screen and (max-width : 500px) {
 .footer li {
